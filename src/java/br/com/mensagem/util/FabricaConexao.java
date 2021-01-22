@@ -11,7 +11,7 @@ public class FabricaConexao {
     public static Connection conexao;
     private static final String URL_SERVIDOR = "jdbc:mysql://localhost/mensagemjsf";//parametro nome do servidor e banco
     private static final String URL_USUARIO = "root";//parametro usuario do banco
-    private static final String URL_SENHA = "0000";//senha do usuario do banco
+    private static final String URL_SENHA = "senha";//senha do usuario do banco
 
     public static Connection getConexao() throws ClassNotFoundException {
         if (conexao == null) {
